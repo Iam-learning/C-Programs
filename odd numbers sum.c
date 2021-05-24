@@ -6,7 +6,7 @@
 int main()
 {
     int n;
-    int odd=0,i=0;
+    int odd=0,i=1;
 
     printf("Enter a number: ");
     scanf("%d", &n);
@@ -15,10 +15,10 @@ int main()
     {
        if(i%2!=0)
         {
-            odd=odd+i;
+        //printf("%d\n",i);
+        odd=odd+i;
+        i=i+2;
         }
-        i++;
-        
     }
     printf("Sum of all odd numbers is: %d", odd);
     return 0;
