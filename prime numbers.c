@@ -10,6 +10,7 @@ int factor = 0;
 printf("Enter an integer: ");
 scanf("%d", &n);
 
+
     for (i=1; i<=n; i++){
         if (n%i==0){
             factor++;
@@ -21,7 +22,7 @@ scanf("%d", &n);
     }
     else{
         printf("%d is NOT a prime number",n);
-}
+    }
 
 
 return 0;

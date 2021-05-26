@@ -4,20 +4,22 @@
 int main()
 {
     int n;
-    int i=0;
 
     printf("Enter an integer: ");
     scanf("%d", &n);
 
-   printf("even numbers:\n"); 
+    int fact=1;
+    int i=n;
 
-
-    while (i<n)
+    do
     {
-       printf("%d\n",i);
-       
-       i=i+2;
-    }
+        fact=n*fact;
+        n=n-1;
+    } while (n>0);
+        
+    printf("factorial of %d is: %d", i,fact);
+
     
     return 0;
 }
+

@@ -3,21 +3,18 @@
 
 int main()
 {
-    int n;
-    int i=0;
+    int n,fact=1;
 
     printf("Enter an integer: ");
     scanf("%d", &n);
 
-   printf("even numbers:\n"); 
+    int i=n;
 
-
-    while (i<n)
+    for (n;n>0;n=n-1)
     {
-       printf("%d\n",i);
-       
-       i=i+2;
+       fact=n*fact;
     }
-    
+    printf("factorial of %d is: %d", i,fact);
     return 0;
 }
+
