@@ -13,7 +13,7 @@ scanf("%d", &n);
 for(a=1;a<=n;a++){
 
 
-    for (i=0; i<=a; i++){
+    for (i=1; i<=n; i++){
         if (a%i==0){
             factor++;
         }
@@ -24,7 +24,7 @@ for(a=1;a<=n;a++){
     }
 
 
-
 }
+
 return 0;
 }

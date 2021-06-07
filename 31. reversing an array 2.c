@@ -4,7 +4,7 @@
 void main() 
 {
     
-    int a[5],b[5],n;
+    int a[5],t,i,j;
 
     printf("Enter 5 numbers:\n");
 
@@ -19,19 +19,24 @@ void main()
     {
         printf("%d ", a[i]);
     }
-//////////////////////////////////////////////////////////////////////
-    n=0;
-    for (int i = 4; i >= 0; i--)
-    {
-        b[n] = a[i];
-        n++;
-    }
+
+////////////////////////////////////////////
     
+    j=4;
+    for (int i = 0; i <=5/2; i++)
+    {
+          t  = a[i];
+        a[i] = a[j];
+        a[j] = t;
+        
+        j--;
+    
+    }
+
     printf("\nReversed array: ");
 
     for (int i = 0; i < 5; i++)
     {
-        printf("%d ", b[i]);
+        printf("%d ", a[i]);
     }
-    
 }
