@@ -8,10 +8,10 @@ int main()
     printf("enter the first number: ");
     scanf("%d", &a);  
     
-    printf("enter the first number: ");
+    printf("enter the second number: ");
     scanf(" %d", &b);
    
-    int multi = a - b;
+    int multi = a * b;
     printf("multiplication of numbers %d and %d is %d", a,b, multi );
 
     return 0;

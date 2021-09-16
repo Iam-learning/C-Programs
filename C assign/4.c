@@ -8,11 +8,11 @@ int main()
     printf("enter the first number: ");
     scanf("%f", &a);  
     
-    printf("enter the first number: ");
+    printf("enter the second number: ");
     scanf(" %f", &b);
    
     int div = a / b;
-    printf("sum of numbers %d and %d is %d", a,b, sum );
+    printf("sum of numbers %d and %d is %d", a,b, div );
 
     return 0;
 }

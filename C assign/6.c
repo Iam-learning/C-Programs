@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <coin.h>
+#include <conio.h>
 
 int main(){   
     float P , R , T , SI ;  
