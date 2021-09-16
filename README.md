@@ -1,1 +1,1 @@
-# C-Programs
+# C-Programming taught in college
