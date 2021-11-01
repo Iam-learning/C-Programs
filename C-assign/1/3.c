@@ -1,3 +1,5 @@
+//Multiplication of 2 nums
+
 #include <stdio.h>
 #include <conio.h>
 

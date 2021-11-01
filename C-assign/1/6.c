@@ -1,3 +1,5 @@
+//SIMPLE INTEREST
+
 #include <stdio.h>
 #include <conio.h>
 

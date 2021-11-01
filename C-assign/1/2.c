@@ -1,3 +1,5 @@
+//WAP to perform subtraction of two user define numbers
+
 #include <stdio.h>
 #include <conio.h>
 
@@ -11,9 +13,8 @@ int main()
     printf("enter the second number: ");
     scanf(" %d", &b);
    
-    int sum = a + b;
-    printf("sum of numbers %d and %d is %d", a,b, sum );
+    int sub = a - b;
+    printf("subtraction of numbers %d and %d is %d", a,b, sub );
 
     return 0;
 }
-
