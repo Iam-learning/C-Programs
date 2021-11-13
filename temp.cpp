@@ -1,12 +1,9 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <conio.h>
 
-using namespace std;
+int main (){
 
-int main()
-{
     
-    int a=10,X;
-    X= a-- + ++a;
-    printf("%d",X);
+
     return 0;
 }
