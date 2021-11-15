@@ -31,3 +31,7 @@ int main (){
 
     return 0;
 }
+
+// example equation:
+// enter coefficients of a,b,c: 2 -9 4
+// root1 = 4.00 and root2 = 0.50
