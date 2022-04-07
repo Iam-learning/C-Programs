@@ -1,4 +1,4 @@
-# C-Programming taught in college
+# C-Programming
 
 Some good structred resources :
 
