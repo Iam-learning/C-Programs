@@ -1,6 +1,6 @@
 # C-Programming
 
-Some good structred resources :
+Some good structured resources :
 
 https://www.programiz.com/c-programming
 
